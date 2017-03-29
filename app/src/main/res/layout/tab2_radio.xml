@@ -15,15 +15,25 @@
     <!--android:text="Radio tab"/>-->
 
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:id="@+id/songThumbnail"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_above="@+id/media_player">
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:id="@+id/songThumbnail"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_above="@+id/media_player">-->
 
-    </LinearLayout>
+    <!--</LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="328dp"
+        android:layout_above="@+id/media_player"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/the_strokes" />
 
     <LinearLayout
         android:id="@+id/media_player"
@@ -32,7 +42,6 @@
         android:background="@android:drawable/screen_background_light"
         android:orientation="vertical"
         android:padding="10dip"
-        android:layout_marginBottom="49dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true">
 
@@ -44,8 +53,9 @@
             android:gravity="center_horizontal"
             android:maxLines="1"
             android:text="nothing yet"
-            android:textSize="20dp"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/artist"
             android:layout_width="fill_parent"
@@ -54,6 +64,7 @@
             android:gravity="center_horizontal"
             android:maxLines="1"
             android:text="somebody"
+            android:padding="7dp"
             android:onClick="clickMeArtist"
             android:textColor="@android:color/black"/>
 
@@ -62,7 +73,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:max="100"
-            android:paddingBottom="10dip"/>
+            android:padding="10dp"
+            android:paddingBottom="10dip" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -94,15 +106,7 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="328dp"
-        android:layout_above="@+id/media_player"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="15dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/the_strokes" />
+
 
 
 </RelativeLayout>
