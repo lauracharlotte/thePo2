@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:gravity="center_vertical|left"
+    android:id="@+id/itemOfList">
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/heartimage"
+        android:layout_centerHorizontal="true"
+
+        ></ImageView>
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="8dp"
+        android:text="JustTesting justTesting">
+        </TextView>
+</LinearLayout>

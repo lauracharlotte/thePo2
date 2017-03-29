@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/c2063d09c9e34b4299a5f23d05e22a96731a87f0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_3246fdf83d63ea04a7ae7fcf82f8f139a516a467.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/6562097217c43ea355103bd1cf09426653dadce3/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_4746eba079ed7d5222402965d7fce4ca101d281d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/d7c70fd4b52dc43d00c6c10bf61b8173fbc2068a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_1bd2b5b87b8618fabf4d220bcf4571598d19dbcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/ecebde977c2f4896fe832f5d0ecd7422be476ae8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_fba36e6cda95d0362aa5321a1c9dbcd256392126.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/1564edcd3a3a1e8baad4bf3562087851458119b6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_f2635d6d516dd34cd19d2fc7dd2ff3c543b63194.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/6562097217c43ea355103bd1cf09426653dadce3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_ed023788bca58ffcc792784e1102c68c05027ed8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/b5b4dff7375a6deff8e255ddf3fb81f96689c132/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_0d092d7494d7b3573c9e5d4db44d2e5e38da1615.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/eeb95a0ac511d681ccf180d952180e1d13c1490b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_f3a30df4448ba298e71c682c06dfb6181c1aad26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/ef0a66529f6f11bdd429fbb1a917f97dc0d09e17/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_931beb8cee180304f4f9755ea7b66c4d03e4d2c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/b8c6df72910bd52bcfe765dcbf2f200a2549d924/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_441de9d5eb6a1d5d58d3197b49a5ea5e83ad2fc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/ef0a66529f6f11bdd429fbb1a917f97dc0d09e17/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_8b1fd165e531f12497b02e81dfa9c733b38523a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/2b4f0d5afce31aab87a5e9ee3d080ebbad90cda9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_68e816962b67dad37182ada4d6eb76afab79de5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/a45fe19405fae561604f460acfb2df138498937f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/classes_23c47b3c9bac2ec078694b049f0e684d6161a646.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/.android/build-cache/c2063d09c9e34b4299a5f23d05e22a96731a87f0/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ab5d694099ec01361936d15ce1c0a0f3cabae8e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laurahovey/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_e2972288e4d593ea76646a016f867e6044118748.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "684692733276",
+    "firebase_url": "https://thepo-89104.firebaseio.com",
+    "project_id": "thepo-89104",
+    "storage_bucket": "thepo-89104.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684692733276:android:33fbd600cbabfe38",
+        "android_client_info": {
+          "package_name": "com.example.thepo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684692733276-pgdoo42qk73tbjpidc0863l89fid58mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thepo",
+            "certificate_hash": "d7f98d6268f7fbe854bf43a75837605d59e73ab7"
+          }
+        },
+        {
+          "client_id": "684692733276-q09040ulor6on1et1rls3md6gh0gennv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASdIY-pdd6XfgZCxJXgMHc2lKy--Aki-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684692733276-q09040ulor6on1et1rls3md6gh0gennv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
