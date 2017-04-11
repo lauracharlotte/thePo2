@@ -1,9 +1,5 @@
 package com.example.thepo;
 
-/**
- * Created by laurahovey on 3/28/17.
- */
-
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Handler;
@@ -59,22 +55,6 @@ public class Tab2Radio extends AppCompatActivity {
 
         mySound = MediaPlayer.create(this, R.raw.turningtogold);
 
-
-//        selectedSong = (TextView)findViewById(R.id.selectedSong);
-//        seekbar = (SeekBar)findViewById(R.id.seekbar);
-//        playBtn = (ImageButton)findViewById(R.id.play);
-//        prevBtn = (ImageButton) findViewById(R.id.prev);
-//        nextBtn = (ImageButton)findViewById(R.id.next);
-//
-//        mp = new MediaPlayer();
-
-//        mp.setOnCompletionListener(onCompletion);
-//        mp.setOnErrorListener(onError);
-//        seekbar.setOnSeekBarChangeListener(seekbarChanged);
-
-
-
-        //return rootView;
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -92,6 +72,7 @@ public class Tab2Radio extends AppCompatActivity {
     {
 
     }
+
     public void uploadButtonClick(MenuItem v)
     {
         Intent i = new Intent(Tab2Radio.this, Tab3Upload.class);

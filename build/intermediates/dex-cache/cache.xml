@@ -2,94 +2,112 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/1cf9ae7e183fdca1c8c772b20fad482486657c94/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\dea9fb656c3958ed51adfb69720a17ee5011d63d\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_d079c90e3deb6f962389a45684549686a679456f.jar" />
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5586ab377752b6f86c3a7e456963504b81d2c28b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/b932751460778656d8f081b5cecb67e6b8a7f059/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_352562fdd20bde9e823baf884037d630beb4d318.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/2c81701c310c1218f83aa7692dea220ce0edf23f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_377cd5d5f657f6b102a79acaaf18ed1fa47b056d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/55f1a6df8cb40e1a2be9c12b3aa5d26c7b2c92af/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_25065392dde112dd22d589a67e4acc77fb475f29.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/4047b5348360e96589d020f3f49db588ce220a2a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_4e3d8624d631ebd1ae94412a749ab7e6551a72d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/f578c6ae78e0291434a4511958e96521885628dc/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_bfb65e3dae455e4d6168c4f80db43f45a97ecf00.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/85c21c9ae44cc7b1c8040bb0aace0b70545f1f2d/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\ccf644533e4ec34c21e70c2692e64aafcdd38551\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_42658976b9cf230d53eb2513996577f0c261d360.jar" />
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c29799cd4e4754277814382858817ea55cdb3e0d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/30abf17c9bfc38ec44add1d7f477b3a3bf181895/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_ea19379b59ca06c576bedc980d258e042b64b43a.jar" />
+        sha1="38dff6e71b24080b5bfdda183eae59c466934699">
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0905d299ebe59dfb14b30e64cd062ff854fd4ce2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/55edc3ecfb0d90587422d459dd86eeae33fdf3f3/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\654a0107ef63e1fd01d903b34ce3c8ac5ae711a4\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_d72576ed6d7977d71ab364238721e7ba9a83915b.jar" />
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_152dfb1beb1d75f845d6713b8e166975f12d5935\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/laurahovey/.android/build-cache/4e69baeea0813330953b2bac27da3c4e5a1b69d6/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\54d1b380c4113df3690ee3c6924ad248ba8c3aa0\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/Users/laurahovey/Documents/thePoProject/thePo2/app/build/intermediates/pre-dexed/debug/classes_efc55ce018747b6c34e0f3d246cf7325d44c8c6b.jar" />
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_029435c4cf5542f7f207064ee7bc7ba09be5f056\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\547c25a3da009ed24d45932fe9b4720acd7b9d4b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3b85b4598445fc84311bf2821760fe0da9486f88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\cbc0f5b7e1e9da0587c6ac635ebe80e8da4d3e5f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_13a3cdc6fa5cb0665e27d4b880503efc4c1d1135\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\fb79539b52e3bfa28fec2e1e750ee094598c26c3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b54354319538d76c8c60ceaf35add2ecbad44419\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f74d391562d6655ef316faf59a087f20eb6b4e82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\f38b2a5f1debe4d607456e2b80361431c6b37735\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_96ceb64b5e777437495adf52d6a6370cacf1926d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\9a2e821f44e1d9caa38df082203de81547eae6b2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d63f28dd6fe586eb26eb0f774f51c06479359dcf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hoho7\.android\build-cache\7cc2371046dc10e5df642cdd32594add04df8d1e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\hoho7\Desktop\CS456\thePo2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f12f3e7eb164d6a2a076710790f1be57006344b7\classes.dex" />
     </item>
 
 </items>
