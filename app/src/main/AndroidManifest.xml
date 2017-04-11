@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.thepo">
+    
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -19,9 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BrowseStations" />
-        <activity android:name=".dontcare.ArtistPage" />
         <activity android:name=".ArtistInfo" />
-        <activity android:name=".EmptyRadioPage"></activity>
         <activity android:name=".Tab2Radio"/>
         <activity android:name=".Tab3Upload"/>
     </application>

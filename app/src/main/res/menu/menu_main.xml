@@ -2,9 +2,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.thepo.MainActivity">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+
+    <item android:id="@+id/browsepage"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        app:showAsAction="ifRoom|withText"
+        android:onClick="browseButtonClick"
+        android:title="recycle"/>
+
+    <item android:id="@+id/uploadpage"
+        android:icon="@drawable/ic_file_upload_black_24dp"
+        android:onClick="uploadButtonClick"
+        app:showAsAction="ifRoom|withText"
+        android:title="upload"/>
+
+    <item android:id="@+id/radiopage"
+        android:icon="@drawable/ic_radio_black_24dp"
+        android:onClick="radioButtonClick"
+        app:showAsAction="ifRoom|withText"
+        android:title="radio"/>
+
 </menu>

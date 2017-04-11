@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -57,11 +58,49 @@
 
     <Button
         android:id="@+id/browse_file"
+        android:onClick="actuallyRecord"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Browse file"
         android:drawableLeft="@android:drawable/ic_menu_search"
         android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/stopRecord"
+        android:onClick="stopRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="28dp"
+        android:text="Stop Recording" />
+
+    <Button
+        android:id="@+id/playitback"
+        android:onClick= "playBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stopRecord"
+        android:layout_alignStart="@+id/stopRecord"
+        android:layout_marginBottom="26dp"
+        android:text="Play Back" />
+
+    <Button
+        android:id="@+id/stopplaying"
+        android:onClick="stopPlaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/playitback"
+        android:layout_centerHorizontal="true"
+        android:text="Stop Playing" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/stopRecord"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
 
 
 </RelativeLayout>

@@ -1,5 +1,6 @@
 package com.example.thepo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -7,6 +8,8 @@ import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 public class ArtistInfo extends AppCompatActivity {
@@ -69,5 +72,28 @@ public class ArtistInfo extends AppCompatActivity {
 
         HyperLink.setMovementMethod(LinkMovementMethod.getInstance());
         HyperLink.setText(Text);*/
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+    public void radioButtonClick(MenuItem v)
+    {
+        Intent i = new Intent(ArtistInfo.this, Tab2Radio.class);
+        startActivity(i);
+    }
+
+    public void uploadButtonClick(MenuItem v)
+    {
+        Intent i = new Intent(ArtistInfo.this, Tab3Upload.class);
+        startActivity(i);
+    }
+    public void browseButtonClick(MenuItem v)
+    {
+        Intent i = new Intent(ArtistInfo.this, MainActivity.class);
+        startActivity(i);
     }
 }
