@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Environment;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -68,13 +69,24 @@ public class Tab3Upload extends AppCompatActivity {
 
     public void uploadButtonClick(MenuItem v)
     {
-
+        Snackbar.make(findViewById(R.id.upload_layout), "You're currently on the upload page!",
+                Snackbar.LENGTH_SHORT).show();
     }
 
     public void browseButtonClick(MenuItem v)
     {
         Intent i = new Intent(Tab3Upload.this, MainActivity.class);
         startActivity(i);
+    }
+
+    public void finishClicked(View v){
+        Snackbar.make(findViewById(R.id.upload_layout), "Sorry, this feature doesn't exist yet.",
+                Snackbar.LENGTH_SHORT).show();
+    }
+
+    public void browseFile(View v){
+        Snackbar.make(findViewById(R.id.upload_layout), "Sorry, this feature doesn't exist yet.",
+                Snackbar.LENGTH_SHORT).show();
     }
 
 

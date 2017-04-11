@@ -84,7 +84,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void browseButtonClick(MenuItem v)
     {
-
+        Snackbar.make(findViewById(R.id.browseitem), "You're currently on the browse(Genres) page!",
+                Snackbar.LENGTH_SHORT).show();
     }
 
 //    public void clickMe(View v)

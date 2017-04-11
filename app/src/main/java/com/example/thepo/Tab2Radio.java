@@ -3,6 +3,7 @@ package com.example.thepo;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Handler;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -70,7 +71,8 @@ public class Tab2Radio extends AppCompatActivity {
 
     public void radioButtonClick(MenuItem v)
     {
-
+        Snackbar.make(findViewById(R.id.radio_layout), "You're currently on the radio page!",
+                Snackbar.LENGTH_SHORT).show();
     }
 
     public void uploadButtonClick(MenuItem v)

@@ -4,7 +4,7 @@
     tools:context="com.example.thepo.MainActivity">
 
     <item android:id="@+id/browsepage"
-        android:icon="@drawable/ic_view_list_black_24dp"
+        android:icon="@drawable/ic_border_all_black_24dp"
         app:showAsAction="ifRoom|withText"
         android:onClick="browseButtonClick"
         android:title="recycle"/>
