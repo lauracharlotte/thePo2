@@ -31,10 +31,10 @@ public class ArtistInfo extends AppCompatActivity {
         //recyclerView.setAdapter(curAdapter);
 
 
-        TextView textView = (TextView)findViewById(R.id.actualWebsite);
+        TextView textView = (TextView)findViewById(R.id.bandSoundCloud);
         textView.setClickable(true);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
-        String text = "(Actual Website Music Taken From For Demo - not actually The Ha'Pennies:) <br /><br /><a href='http://www.bensound.com'>http://www.bensound.com</a>";
+        String text = "Website: <br /><br /><a href='http://www.bensound.com'>http://www.bensound.com</a>";
         textView.setText(Html.fromHtml(text));
 
         TextView textView2 = (TextView)findViewById(R.id.bandSpotify);
@@ -43,14 +43,14 @@ public class ArtistInfo extends AppCompatActivity {
         String text2 = "Spotify: <br /><br /><a href='spotify:artist:7MO73D0T5Pkws74gpLsQ0x'>spotify:artist:7MO73D0T5Pkws74gpLsQ0x</a>";
         textView2.setText(Html.fromHtml(text2));
 
-        TextView textView3 = (TextView)findViewById(R.id.bandSoundCloud);
-        textView3.setClickable(true);
-        textView3.setMovementMethod(LinkMovementMethod.getInstance());
-        String text3 = "Website: <br /><br /><a href='http://halfpennies.co.uk/'>http://halfpennies.co.uk/</a>";
-        textView3.setText(Html.fromHtml(text3));
+//        TextView textView3 = (TextView)findViewById(R.id.bandSoundCloud);
+//        textView3.setClickable(true);
+//        textView3.setMovementMethod(LinkMovementMethod.getInstance());
+//        String text3 = "Website: <br /><br /><a href='http://halfpennies.co.uk/'>http://halfpennies.co.uk/</a>";
+//        textView3.setText(Html.fromHtml(text3));
 
         TextView textView4 = (TextView)findViewById(R.id.descriptioninfo);
-        String text4 = "The Ha'Pennies are a local London band that loves to rock and role. Their inspiration comes from a wide array of British bands. They are always willing to perform a gig so contact if in London and if interested!";
+        String text4 = "BenSound is a roylatee free site where you can get music for things like videos, websites, and more. Just make sure you credit them!";
         textView4.setText(text4);
         /*HyperLink = (TextView)findViewById(R.id.bandBandCamp);
 

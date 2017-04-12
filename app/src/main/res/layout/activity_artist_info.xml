@@ -20,7 +20,7 @@
             android:background="@android:color/transparent"
             android:paddingLeft="16dp"
             android:paddingTop="16dp"
-            android:text="The Ha'Pennies"
+            android:text="BenSound"
             android:textColor="#F44336"
             android:textSize="26sp"
             android:textStyle="bold"
@@ -48,6 +48,17 @@
             />
 
         <TextView
+            android:id="@+id/bandSoundCloud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:text="SoundCloud: "
+            android:textColor="#F44336"
+            android:layout_alignParentStart="true" />
+        <TextView
             android:id="@+id/bandSpotify"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,29 +71,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true" />
 
-        <TextView
-            android:id="@+id/bandSoundCloud"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:paddingLeft="16dp"
-            android:paddingTop="16dp"
-            android:textSize="16sp"
-            android:text="SoundCloud: "
-            android:textColor="#F44336"
-            android:layout_below="@+id/bandSpotify"
-            android:layout_alignParentStart="true" />
-        <TextView
-            android:id="@+id/actualWebsite"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:paddingLeft="16dp"
-            android:paddingTop="16dp"
-            android:textSize="16sp"
-            android:text="SoundCloud: "
-            android:textColor="#F44336"
-            android:layout_alignParentStart="true" />
+
     </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
