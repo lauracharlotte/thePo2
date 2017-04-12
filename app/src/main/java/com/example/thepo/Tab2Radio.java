@@ -54,7 +54,7 @@ public class Tab2Radio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tab2_radio);
 
-        mySound = MediaPlayer.create(this, R.raw.turningtogold);
+        mySound = MediaPlayer.create(this, R.raw.bensoundmemories);
 
     }
     @Override

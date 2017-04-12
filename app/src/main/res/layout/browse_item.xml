@@ -13,7 +13,7 @@
         android:layout_width="175dp"
         android:layout_height="200dp"
         android:onClick="clickMeCard"
-        card_view:cardCornerRadius="4dp"
+        card_view:cardUseCompatPadding="true"
         >
 
         <RelativeLayout
@@ -49,7 +49,7 @@
         android:layout_height="200dp"
         android:layout_marginLeft="4dp"
         android:onClick="clickMeCard"
-        card_view:cardCornerRadius="4dp"
+        card_view:cardUseCompatPadding="true"
         >
 
         <RelativeLayout

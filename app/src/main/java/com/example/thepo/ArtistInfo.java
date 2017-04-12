@@ -24,31 +24,34 @@ public class ArtistInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artist_info);
-        recyclerView = (RecyclerView)findViewById(R.id.songListt);
+        //recyclerView = (RecyclerView)findViewById(R.id.songListt);
         //LayoutManager Linear, Grid, Staggered
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        //recyclerView.setLayoutManager(new LinearLayoutManager(this));
         curAdapter = new artistAdapter(MockData.getListData(), this);
-        recyclerView.setAdapter(curAdapter);
+        //recyclerView.setAdapter(curAdapter);
 
 
-        TextView textView = (TextView)findViewById(R.id.bandBandCamp);
+        TextView textView = (TextView)findViewById(R.id.actualWebsite);
         textView.setClickable(true);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
-        String text = "<a href='https://thehapennies.bandcamp.com/'> Band Camp </a>";
+        String text = "(Actual Website Music Taken From For Demo - not actually The Ha'Pennies:) <br /><br /><a href='http://www.bensound.com'>http://www.bensound.com</a>";
         textView.setText(Html.fromHtml(text));
 
         TextView textView2 = (TextView)findViewById(R.id.bandSpotify);
         textView2.setClickable(true);
         textView2.setMovementMethod(LinkMovementMethod.getInstance());
-        String text2 = "<a href='spotify:artist:7MO73D0T5Pkws74gpLsQ0x'> Spotify </a>";
+        String text2 = "Spotify: <br /><br /><a href='spotify:artist:7MO73D0T5Pkws74gpLsQ0x'>spotify:artist:7MO73D0T5Pkws74gpLsQ0x</a>";
         textView2.setText(Html.fromHtml(text2));
 
         TextView textView3 = (TextView)findViewById(R.id.bandSoundCloud);
         textView3.setClickable(true);
         textView3.setMovementMethod(LinkMovementMethod.getInstance());
-        String text3 = "<a href='http://halfpennies.co.uk/'> Website </a>";
+        String text3 = "Website: <br /><br /><a href='http://halfpennies.co.uk/'>http://halfpennies.co.uk/</a>";
         textView3.setText(Html.fromHtml(text3));
 
+        TextView textView4 = (TextView)findViewById(R.id.descriptioninfo);
+        String text4 = "The Ha'Pennies are a local London band that loves to rock and role. Their inspiration comes from a wide array of British bands. They are always willing to perform a gig so contact if in London and if interested!";
+        textView4.setText(text4);
         /*HyperLink = (TextView)findViewById(R.id.bandBandCamp);
 
         Text = Html.fromHtml("BandCamp: " +

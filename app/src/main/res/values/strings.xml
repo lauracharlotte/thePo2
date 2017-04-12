@@ -1,8 +1,9 @@
 
 <resources>
-    <string name="app_name">456Po</string>
+    <string name="app_name">The Po</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="band_name"><u>BenSound</u></string>
 
     <string-array name="genres">
         <item>Bluegrass</item>
