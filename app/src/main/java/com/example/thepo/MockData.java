@@ -13,10 +13,10 @@ public class MockData {
     private static final String[] songTitles = {"Ghosts", "Singing About Andrew","Tomorrow", "Glory", "Other Side of the World", "Pennies", "Fickle","Bones, Bones, Bones", "Mercy"};
     private static final int[] iconNum = {R.drawable.sheepimage, R.drawable.cutepugimage, R.drawable.hedgehogimage, R.drawable.ducklingimage};
 
-    private static final String[] browseTitles={"Mariachi", "KPop", "Rege","Pop", "Hiphop", "Country", "Blue Grass", "Rap", "Salsa", "Blues"};
+    private static final String[] browseTitles={"Mariachi", "KPop", "Piano", "Rap", "Blue Grass", "Rock", "Dubstep",  "Classical", "Salsa", "Blues"};
     private static final int[] browseNum = { R.drawable.spiderimage, R.drawable.grandmaimage, R.drawable.colorfulfloorimage, R.drawable.aligatorimage, R.drawable.elephantimage, R.drawable.yellowshirtimage, R.drawable.paintingimage, R.drawable.tatoosimage, R.drawable.violinimage};
 
-    private static final String[] browseTitles2={"Techno", "Dubstep", "Instramental", "Piano", "Classical", "Rock", "Folk", "Jazz", "Alternative", "Indie"};
+    private static final String[] browseTitles2={"Country", "Techno", "Instrumental", "Hiphop", "Folk", "Pop", "Reggae", "Jazz", "Alternative", "Indie"};
     private static final int[] browseNum2 = {R.drawable.chairimage, R.drawable.cryptimage, R.drawable.chairimage, R.drawable.bicycleimage, R.drawable.concerthallimage, R.drawable.concertimage, R.drawable.friendsimage, R.drawable.recordplayerimage, R.drawable.rockimage};
 
 

@@ -32,8 +32,15 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
     }
+
+//    recView.addOnItemTouchListener(
+//        new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
+//            @Override public void onItemClick(View view, int position) {
+//            // TODO Handle item click
+//            }
+//        })
+//    );
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -54,11 +61,11 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void clickMeCard(View v)
-    {
-        Intent i = new Intent(MainActivity.this, Tab2Radio.class);
-        startActivity(i);
-    }
+//    public void clickMeCard(View v)
+//    {
+//        Intent i = new Intent(MainActivity.this, Tab2Radio.class);
+//        startActivity(i);
+//    }
     public void radioButtonClick(MenuItem v)
     {
         Intent i = new Intent(MainActivity.this, Tab2Radio.class);

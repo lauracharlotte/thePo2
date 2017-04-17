@@ -12,9 +12,9 @@
         android:id="@+id/carditem"
         android:layout_width="175dp"
         android:layout_height="200dp"
-        android:onClick="clickMeCard"
-        card_view:cardUseCompatPadding="true"
-        >
+        card_view:cardUseCompatPadding="true">
+        <!--android:onClick="clickMeCard"-->
+
 
         <RelativeLayout
             android:id="@+id/cardRelLay"
@@ -48,9 +48,9 @@
         android:layout_width="175dp"
         android:layout_height="200dp"
         android:layout_marginLeft="4dp"
-        android:onClick="clickMeCard"
         card_view:cardUseCompatPadding="true"
         >
+        <!--android:onClick="clickMeCard"-->
 
         <RelativeLayout
             android:id="@+id/cardRelLay2"

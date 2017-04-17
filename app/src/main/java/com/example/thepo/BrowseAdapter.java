@@ -1,6 +1,7 @@
 package com.example.thepo;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -18,50 +19,67 @@ public class BrowseAdapter extends RecyclerView.Adapter<BrowseAdapter.BrowseHold
     private List<BrowseItem> browseItem;
     private LayoutInflater inflater;
     int tracker = 0;
-
-//    Snackbar.make(findViewById(R.id.browseitem), "You're currently on the radio page!",
-//    Snackbar.LENGTH_SHORT).show();
-
-
+    Context context;
 
     public BrowseAdapter(List<BrowseItem> browseItem, Context c)
     {
         this.inflater = LayoutInflater.from(c);
         this.browseItem = browseItem;
+        this.context = c;
     }
-
 
     @Override
     public BrowseHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = inflater.inflate(R.layout.browse_item, parent, false);
-//        view.setOnClickListener(
-//                new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View v) {
-//                        Snackbar.make(v.findViewById(R.id.browseitem), "clicked" + getAdapterPosition(), Snackbar.LENGTH_SHORT).show();
-//                    }
-//                }
-//        );
         return new BrowseHolder(view);
     }
 
-
     @Override
     public void onBindViewHolder(BrowseHolder holder, final int position) {
-        BrowseItem item = browseItem.get(position);
-
-//        holder.itemView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Snackbar.make(v.findViewById(R.id.browseitem), "clicked" + position, Snackbar.LENGTH_SHORT).show();
-//            }
-//        });
+        final BrowseItem item = browseItem.get(position);
 
         holder.title.setText(item.getTitle());
         holder.icon.setImageResource(item.getImageResID());
 
         holder.title2.setText(item.getTitle2());
         holder.icon2.setImageResource(item.getImageResID2());
+
+        holder.container.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if(item.getTitle().equalsIgnoreCase("mariachi")){
+                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
+                                    Snackbar.LENGTH_SHORT).show();
+                        }
+                        else if(item.getTitle().equalsIgnoreCase("KPop")){
+                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
+                                    Snackbar.LENGTH_SHORT).show();
+                        }
+                        else if(item.getTitle().equalsIgnoreCase("Piano")){
+                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
+                                    Snackbar.LENGTH_SHORT).show();
+                        }
+                        else if(item.getTitle().equalsIgnoreCase("Rap")){
+                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
+                                    Snackbar.LENGTH_SHORT).show();
+                        }
+                        else if(item.getTitle().equalsIgnoreCase("Blue Grass")){
+                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
+                                    Snackbar.LENGTH_SHORT).show();
+                        }
+                        else if(item.getTitle2().equalsIgnoreCase("Rock")){
+                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle2(),
+                                    Snackbar.LENGTH_SHORT).show();
+                        }
+                        else{
+                            Intent i = new Intent(context, Tab2Radio.class);
+                            context.startActivity(i);
+                        }
+
+                    }
+                }
+        );
 
     }
 
