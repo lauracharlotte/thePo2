@@ -20,7 +20,7 @@ public class BrowseStations extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_browse_stations);
+        setContentView(R.layout.activity_main);
         recView = (RecyclerView)findViewById(R.id.browseactivity);
         //LayoutManager: Linear Layout or Grid or Staggered grid
         recView.setLayoutManager(new LinearLayoutManager(this));
