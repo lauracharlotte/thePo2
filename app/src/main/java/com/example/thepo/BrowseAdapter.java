@@ -61,16 +61,16 @@ public class BrowseAdapter extends RecyclerView.Adapter<BrowseAdapter.BrowseHold
                             context.startActivity(i);
                         }
                         else if(item.getTitle().equalsIgnoreCase("Rap")){
-                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
-                                    Snackbar.LENGTH_SHORT).show();
+                            Intent i = new Intent(context, RapRadio2.class);
+                            context.startActivity(i);
                         }
                         else if(item.getTitle().equalsIgnoreCase("Blue Grass")){
-                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
-                                    Snackbar.LENGTH_SHORT).show();
+                            Intent i = new Intent(context, BlueGrassRadio2.class);
+                            context.startActivity(i);
                         }
-                        else if(item.getTitle2().equalsIgnoreCase("Rock")){
-                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle2(),
-                                    Snackbar.LENGTH_SHORT).show();
+                        else if(item.getTitle().equalsIgnoreCase("Rock")){
+                            Intent i = new Intent(context, RockRadio2.class);
+                            context.startActivity(i);
                         }
                         else{
                             Intent i = new Intent(context, Tab2Radio.class);

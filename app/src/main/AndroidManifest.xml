@@ -27,7 +27,10 @@
         <activity android:name=".Tab3Upload" />
         <activity android:name=".radio_mariachi" />
         <activity android:name=".radio_kpop" />
-        <activity android:name=".radio_piano"></activity>
+        <activity android:name=".radio_piano" />
+        <activity android:name=".RapRadio2" />
+        <activity android:name=".BlueGrassRadio2" />
+        <activity android:name=".RockRadio2"></activity>
     </application>
 
 </manifest>
