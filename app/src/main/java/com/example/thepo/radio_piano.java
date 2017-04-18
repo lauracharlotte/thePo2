@@ -1,6 +1,7 @@
 package com.example.thepo;
 
 import android.content.Intent;
+import android.media.Image;
 import android.media.MediaPlayer;
 import android.os.Handler;
 import android.support.design.widget.Snackbar;
@@ -50,7 +51,11 @@ public class radio_piano extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radio_piano);
 
+        ImageButton imgBtn = (ImageButton)findViewById(R.id.play_piano);
+        imgBtn.setImageResource(android.R.drawable.ic_media_pause);
+
         mySound = MediaPlayer.create(this, R.raw.yiruma_maybe);
+        mySound.start();
     }
 
     @Override
@@ -88,10 +93,14 @@ public class radio_piano extends AppCompatActivity {
         if(mySound.isPlaying())
         {
             mySound.pause();
+            ImageButton imgBtn = (ImageButton)findViewById(R.id.play_piano);
+            imgBtn.setImageResource(android.R.drawable.ic_media_play);
         }
         else
         {
             mySound.start();
+            ImageButton imgBtn = (ImageButton)findViewById(R.id.play_piano);
+            imgBtn.setImageResource(android.R.drawable.ic_media_pause);
         }
     }
 }

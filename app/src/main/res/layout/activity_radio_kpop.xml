@@ -59,7 +59,7 @@
             android:weightSum="1">
 
             <ImageButton
-                android:id="@+id/play"
+                android:id="@+id/play_kpop"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
                 android:layout_weight="0.07"
