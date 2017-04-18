@@ -49,16 +49,16 @@ public class BrowseAdapter extends RecyclerView.Adapter<BrowseAdapter.BrowseHold
                     @Override
                     public void onClick(View view) {
                         if(item.getTitle().equalsIgnoreCase("mariachi")){
-                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
-                                    Snackbar.LENGTH_SHORT).show();
+                            Intent i = new Intent(context, radio_mariachi.class);
+                            context.startActivity(i);
                         }
                         else if(item.getTitle().equalsIgnoreCase("KPop")){
-                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
-                                    Snackbar.LENGTH_SHORT).show();
+                            Intent i = new Intent(context, radio_kpop.class);
+                            context.startActivity(i);
                         }
                         else if(item.getTitle().equalsIgnoreCase("Piano")){
-                            Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
-                                    Snackbar.LENGTH_SHORT).show();
+                            Intent i = new Intent(context, radio_piano.class);
+                            context.startActivity(i);
                         }
                         else if(item.getTitle().equalsIgnoreCase("Rap")){
                             Snackbar.make(view.findViewById(R.id.browseitem), "clicked " + item.getTitle(),
