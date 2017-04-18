@@ -54,8 +54,12 @@ public class radio_mariachi extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radio_mariachi);
-        mySound = MediaPlayer.create(this, R.raw.george_strait_twang);
 
+        ImageButton imgBtn = (ImageButton)findViewById(R.id.play_mariachi);
+        imgBtn.setImageResource(android.R.drawable.ic_media_pause);
+
+        mySound = MediaPlayer.create(this, R.raw.george_strait_twang);
+        mySound.start();
     }
 
     @Override
@@ -93,10 +97,14 @@ public class radio_mariachi extends AppCompatActivity {
         if(mySound.isPlaying())
         {
             mySound.pause();
+            ImageButton imgBtn = (ImageButton)findViewById(R.id.play_mariachi);
+            imgBtn.setImageResource(android.R.drawable.ic_media_play);
         }
         else
         {
             mySound.start();
+            ImageButton imgBtn = (ImageButton)findViewById(R.id.play_mariachi);
+            imgBtn.setImageResource(android.R.drawable.ic_media_pause);
         }
     }
 }

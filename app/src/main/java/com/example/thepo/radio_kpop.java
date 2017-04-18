@@ -51,8 +51,11 @@ public class radio_kpop extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radio_kpop);
 
-        mySound = MediaPlayer.create(this, R.raw.wax_money);
+        ImageButton imgBtn = (ImageButton)findViewById(R.id.play_kpop);
+        imgBtn.setImageResource(android.R.drawable.ic_media_pause);
 
+        mySound = MediaPlayer.create(this, R.raw.wax_money);
+        mySound.start();
     }
 
     @Override
@@ -90,10 +93,14 @@ public class radio_kpop extends AppCompatActivity {
         if(mySound.isPlaying())
         {
             mySound.pause();
+            ImageButton imgBtn = (ImageButton)findViewById(R.id.play_kpop);
+            imgBtn.setImageResource(android.R.drawable.ic_media_play);
         }
         else
         {
             mySound.start();
+            ImageButton imgBtn = (ImageButton)findViewById(R.id.play_kpop);
+            imgBtn.setImageResource(android.R.drawable.ic_media_pause);
         }
     }
 }
