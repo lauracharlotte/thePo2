@@ -30,7 +30,10 @@
         <activity android:name=".radio_piano" />
         <activity android:name=".RapRadio2" />
         <activity android:name=".BlueGrassRadio2" />
-        <activity android:name=".RockRadio2"></activity>
+        <activity android:name=".RockRadio2" />
+        <activity android:name=".artist_mariachi" />
+        <activity android:name=".artist_kpop" />
+        <activity android:name=".artist_piano"></activity>
     </application>
 
 </manifest>

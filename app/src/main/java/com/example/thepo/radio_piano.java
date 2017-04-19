@@ -66,7 +66,7 @@ public class radio_piano extends AppCompatActivity {
     }
     public void clickMeArtist(View v)
     {
-        Intent i = new Intent(radio_piano.this, ArtistInfo.class);
+        Intent i = new Intent(radio_piano.this, artist_piano.class);
         startActivity(i);
     }
 

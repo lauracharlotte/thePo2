@@ -66,7 +66,7 @@ public class radio_kpop extends AppCompatActivity {
     }
     public void clickMeArtist(View v)
     {
-        Intent i = new Intent(radio_kpop.this, ArtistInfo.class);
+        Intent i = new Intent(radio_kpop.this, artist_kpop.class);
         startActivity(i);
     }
 

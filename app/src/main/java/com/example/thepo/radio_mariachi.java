@@ -70,7 +70,7 @@ public class radio_mariachi extends AppCompatActivity {
     }
     public void clickMeArtist(View v)
     {
-        Intent i = new Intent(radio_mariachi.this, ArtistInfo.class);
+        Intent i = new Intent(radio_mariachi.this, artist_mariachi.class);
         startActivity(i);
     }
 
